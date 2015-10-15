@@ -1,7 +1,7 @@
-package com.thinkingbar.design_pattern._01_strategy.humanentity;
+package design_pattern._01_strategy.humanentity;
 
-import com.thinkingbar.design_pattern._01_strategy.codestrategy.PHPCoder;
-import com.thinkingbar.design_pattern._01_strategy.displaystrategy.ClassicMan;
+import design_pattern._01_strategy.codestrategy.PHPCoder;
+import design_pattern._01_strategy.displaystrategy.ClassicMan;
 
 public class Engineer extends Human {
 

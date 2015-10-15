@@ -1,5 +1,4 @@
-package com.thinkingbar.design_pattern._01_strategy.displaystrategy;
-
+package design_pattern._01_strategy.displaystrategy;
 
 public class ClassicMan implements Display {
 

@@ -1,7 +1,7 @@
-package com.thinkingbar.design_pattern._01_strategy.humanentity;
+package design_pattern._01_strategy.humanentity;
 
-import com.thinkingbar.design_pattern._01_strategy.codestrategy.CodeSkill;
-import com.thinkingbar.design_pattern._01_strategy.displaystrategy.Display;
+import design_pattern._01_strategy.codestrategy.CodeSkill;
+import design_pattern._01_strategy.displaystrategy.Display;
 
 public abstract class Human {
 

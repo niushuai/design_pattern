@@ -1,5 +1,4 @@
-package com.thinkingbar.design_pattern._01_strategy.codestrategy;
-
+package design_pattern._01_strategy.codestrategy;
 
 public class WhatISTheFuckCode implements CodeSkill {
 

@@ -1,7 +1,7 @@
-package com.thinkingbar.design_pattern._01_strategy.humanentity;
+package design_pattern._01_strategy.humanentity;
 
-import com.thinkingbar.design_pattern._01_strategy.codestrategy.WhatISTheFuckCode;
-import com.thinkingbar.design_pattern._01_strategy.displaystrategy.FashionMan;
+import design_pattern._01_strategy.codestrategy.WhatISTheFuckCode;
+import design_pattern._01_strategy.displaystrategy.FashionMan;
 
 public class SuperStar extends Human {
 
