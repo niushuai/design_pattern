@@ -1,5 +1,6 @@
 #Mac
-/bin
+./bin
+./bin/*
 
 #eclipse
 .classpath
