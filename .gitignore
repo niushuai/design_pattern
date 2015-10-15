@@ -1,12 +1,12 @@
-#Mac
-./bin
-./bin/*
-
-#eclipse
-.classpath
-.project
-.settings
+#mac 
+/bin
 .DS_Store
 
-#Windows
+#eclipse
+.settings
+.project
+.classpath
+.bin
+
+#windows
 bin
