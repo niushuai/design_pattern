@@ -1,7 +1,7 @@
-package design_pattern._01_strategy.humanentity;
+package _01_strategy.humanentity;
 
-import design_pattern._01_strategy.codestrategy.PHPCoder;
-import design_pattern._01_strategy.displaystrategy.ClassicMan;
+import _01_strategy.codestrategy.PHPCoder;
+import _01_strategy.displaystrategy.ClassicMan;
 
 public class Engineer extends Human {
 

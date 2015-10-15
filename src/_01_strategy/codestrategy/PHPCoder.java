@@ -1,4 +1,4 @@
-package design_pattern._01_strategy.codestrategy;
+package _01_strategy.codestrategy;
 
 public class PHPCoder implements CodeSkill {
 
