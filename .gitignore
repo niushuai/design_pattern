@@ -1,12 +1,11 @@
 #mac 
-/bin
 .DS_Store
 
 #eclipse
 .settings
 .project
 .classpath
-.bin
+/bin
 
 #windows
 bin
