@@ -1,4 +1,6 @@
-package _03_Decorator;
+package _03_Decorator.decorateBeverage;
+
+import _03_Decorator.Beverage;
 
 /**
  * 调料装饰者，因为不是具体的调料，所以是 abstract 类型

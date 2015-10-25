@@ -1,5 +1,10 @@
 package _03_Decorator;
 
+import _03_Decorator.concreteBeverage.NongSuoCoffee;
+import _03_Decorator.concreteBeverage.XingBingLe;
+import _03_Decorator.decorateBeverage.MilkDecorator;
+import _03_Decorator.decorateBeverage.MochaDecorator;
+
 /**
  * 因为同一个类型，所以调料可以任意装饰饮料。
  * 

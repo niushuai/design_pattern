@@ -1,4 +1,6 @@
-package _03_Decorator;
+package _03_Decorator.decorateBeverage;
+
+import _03_Decorator.Beverage;
 
 /**
  * 抹茶调料

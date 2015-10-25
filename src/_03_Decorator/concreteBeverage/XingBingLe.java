@@ -1,4 +1,6 @@
-package _03_Decorator;
+package _03_Decorator.concreteBeverage;
+
+import _03_Decorator.Beverage;
 
 /**
  * 我爱喝星冰乐！所以果断要超大杯啊啊啊啊啊啊

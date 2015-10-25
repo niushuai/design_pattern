@@ -1,4 +1,6 @@
-package _03_Decorator;
+package _03_Decorator.concreteBeverage;
+
+import _03_Decorator.Beverage;
 
 /**
  * 浓缩咖啡，不爱喝。太苦，所以要中杯
