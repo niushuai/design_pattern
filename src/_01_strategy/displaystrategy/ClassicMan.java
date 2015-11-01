@@ -1,4 +1,4 @@
-package _01_strategy.displaystrategy;
+package _01_Strategy.displaystrategy;
 
 public class ClassicMan implements Display {
 

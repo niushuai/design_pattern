@@ -1,9 +1,9 @@
-package _02_observer.subject;
+package _02_Observer.subject;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import _02_observer.observer.Observer;
+import _02_Observer.observer.Observer;
 
 public class WeatherData implements Subject {
 

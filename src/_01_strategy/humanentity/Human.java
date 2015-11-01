@@ -1,7 +1,7 @@
-package _01_strategy.humanentity;
+package _01_Strategy.humanentity;
 
-import _01_strategy.codestrategy.CodeSkill;
-import _01_strategy.displaystrategy.Display;
+import _01_Strategy.codestrategy.CodeSkill;
+import _01_Strategy.displaystrategy.Display;
 
 public abstract class Human {
 

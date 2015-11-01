@@ -1,9 +1,9 @@
-package _01_strategy;
+package _01_Strategy;
 
-import _01_strategy.displaystrategy.FashionMan;
-import _01_strategy.humanentity.Engineer;
-import _01_strategy.humanentity.Human;
-import _01_strategy.humanentity.SuperStar;
+import _01_Strategy.displaystrategy.FashionMan;
+import _01_Strategy.humanentity.Engineer;
+import _01_Strategy.humanentity.Human;
+import _01_Strategy.humanentity.SuperStar;
 
 public class Demo {
     public static void main(String[] args) {

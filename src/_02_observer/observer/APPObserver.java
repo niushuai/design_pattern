@@ -1,4 +1,4 @@
-package _02_observer.observer;
+package _02_Observer.observer;
 
 public class APPObserver extends Observer {
 

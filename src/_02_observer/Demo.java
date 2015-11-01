@@ -1,11 +1,11 @@
-package _02_observer;
+package _02_Observer;
 
-import _02_observer.observer.APPObserver;
-import _02_observer.observer.NewAPPObserver;
-import _02_observer.observer.Observer;
-import _02_observer.observer.TVObserver;
-import _02_observer.observer.WebSiteObserver;
-import _02_observer.subject.WeatherData;
+import _02_Observer.observer.APPObserver;
+import _02_Observer.observer.NewAPPObserver;
+import _02_Observer.observer.Observer;
+import _02_Observer.observer.TVObserver;
+import _02_Observer.observer.WebSiteObserver;
+import _02_Observer.subject.WeatherData;
 
 public class Demo {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package _01_strategy.humanentity;
+package _01_Strategy.humanentity;
 
-import _01_strategy.codestrategy.WhatISTheFuckCode;
-import _01_strategy.displaystrategy.FashionMan;
+import _01_Strategy.codestrategy.WhatISTheFuckCode;
+import _01_Strategy.displaystrategy.FashionMan;
 
 public class SuperStar extends Human {
 
