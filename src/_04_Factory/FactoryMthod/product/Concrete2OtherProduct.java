@@ -1,4 +1,4 @@
-package _04_Factory.AbstractFactory.product;
+package _04_Factory.FactoryMthod.product;
 
 import _04_Factory.SimpleFactory.Product;
 

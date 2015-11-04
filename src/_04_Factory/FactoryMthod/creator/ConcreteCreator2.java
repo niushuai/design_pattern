@@ -1,7 +1,7 @@
-package _04_Factory.AbstractFactory.creator;
+package _04_Factory.FactoryMthod.creator;
 
-import _04_Factory.AbstractFactory.product.Concrete2OtherProduct;
-import _04_Factory.AbstractFactory.product.Concrete2Product;
+import _04_Factory.FactoryMthod.product.Concrete2OtherProduct;
+import _04_Factory.FactoryMthod.product.Concrete2Product;
 import _04_Factory.SimpleFactory.Product;
 
 public class ConcreteCreator2 extends Creator {

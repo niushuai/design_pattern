@@ -1,23 +1,33 @@
 package _04_Factory.AbstractFactory;
 
-import _04_Factory.AbstractFactory.creator.ConcreteCreator1;
-import _04_Factory.AbstractFactory.creator.ConcreteCreator2;
-import _04_Factory.SimpleFactory.Product;
+import _04_Factory.AbstractFactory.creator.AbstractFactory;
+import _04_Factory.AbstractFactory.creator.ConcreteFactoryA;
+import _04_Factory.AbstractFactory.creator.ConcreteFactoryB;
+import _04_Factory.AbstractFactory.product.ProductA;
+import _04_Factory.AbstractFactory.product.ProductB;
 
 /**
- * 这样我们就能在运行时动态改变所需要的产品。仔细一想，可以结合策略模式<br>
- * 每个策略都是 new 出来的，而且策略也是抽象的，所以就可以用到工厂方法把<br>
- * 策略和 new 都抽象出来，整个结构就会更加通用。
+ * 来个简单的 demo。
  * 
  * @author niushuai
  *
  */
 public class Demo {
     public static void main(String[] args) {
-        Product product = new ConcreteCreator1().order("concrete1");
-        Product product2 = new ConcreteCreator2().order("concrete2");
+        System.out.println("屌丝昨天中大奖，想买个手机和一个电视。。。正好看到两个商店并排在我眼前。。\n");
 
-        Product product3 = new ConcreteCreator1().order("concrete1other");
-        Product product4 = new ConcreteCreator2().order("concrete2other");
+        AbstractFactory xiaomi = new ConcreteFactoryA();
+        AbstractFactory chuizi = new ConcreteFactoryB();
+
+        System.out.println("锤子手机看着挺装逼啊，老板来一个！");
+        ProductA phone = chuizi.createA();
+        phone.display();
+
+        System.out.println("\n=============\n");
+
+        System.out.println("然而锤子情怀过度，电视又跳票3次了。。。");
+        ProductB tv = xiaomi.createB();
+        tv.watchTV();
+
     }
 }

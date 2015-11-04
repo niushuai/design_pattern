@@ -1,11 +1,11 @@
-package _04_Factory.AbstractFactory.creator;
+package _04_Factory.FactoryMthod.creator;
 
 import _04_Factory.SimpleFactory.Product;
 
 /**
- * 工厂方法一般都是：{@code abstract Product factoryMethod(args) }
+ * 工厂方法一般都是：{@code abstract Product factoryMethod(args) }，把实例化推迟到子类实现
  * 
- * 其中，Product 也是抽象，具体实现要根据参数 args 在运行时由使用方决定，这样<br>
+ * 其中，Product 也是抽象，具体实现要根据参数 args 在运行时由子类进行实例化，这样<br>
  * 就有了良好的弹性，不必在代码中写死。
  * 
  * @author niushuai
