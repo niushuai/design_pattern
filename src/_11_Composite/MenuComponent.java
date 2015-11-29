@@ -1,5 +1,7 @@
 package _11_Composite;
 
+import java.util.Iterator;
+
 /**
  * 为解决上个迭代器模式中提出的，要为某个菜单添加子菜单。同时还能够让迭代器生效，这里<br>
  * 就提出新的解决方法：使用组合模式。说白了，就是把模型给抽象树型结构，但是对于结点如何定义<br>
@@ -51,5 +53,7 @@ public abstract class MenuComponent {
     public void print() {
         throw new UnsupportedOperationException();
     }
+
+    public abstract Iterator<MenuComponent> createIterator();
 
 }
